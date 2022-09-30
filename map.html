@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="map.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/> 
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+   integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+   crossorigin=""></script>
+    <link rel="stylesheet" href="./MarkerCluster.css">
+    <link rel="stylesheet" href="./MarkerCluster.Default.css">
+    <script src="./leaflet.markercluster.js"></script>
+    <script src="./leaflet-heat.js" defer></script>
+    <script src="./cascata.geojson" defer></script>
+    <title>WebSIG</title>
+</head>
+<body>
+    <div id="base">
+        <div id="navegacao">
+            <nav>
+                <ul id="indice">
+                    <h1>CASCATAS DE <br>PORTUGAL</h1>
+                    <li id="home"><a href="index.html"><img src="home3.png"></a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="bd.html">Base de dados</a></li>
+                    <li><a href="map.html">Webmap</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="contact.html">Contactos</a></li>
+                    <li>
+                        <div id="form">
+                            <a href="https://arcg.is/1uejCz0"><img src="adicionar.png" width="20" height="20"> Adicionar cascatas</a>
+                        </div>
+                    </li>
+                    <li class="idiomas">
+                        <span id="texto">Idiomas</span>
+                        <div class="conteudo">
+                        <a href="en.html">en</a>
+                        <a href="pt.html">pt</a>
+                        <a href="fr.html">fr</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="WebSIG">
+            <div id="mapDIV"></div>
+            <script src="mapa.js" defer></script>
+        </div>
+    </div>
+</body>
+</html>

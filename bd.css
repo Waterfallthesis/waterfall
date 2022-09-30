@@ -1,0 +1,146 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+#base{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+#indice h1{
+    width: 10%;
+    font-family: 'Bree Serif', serif;
+    display: inline-flex;
+    font-size: 20px;
+    color: #f1f1f1;
+    text-align: left;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    padding: 0%;
+    margin-top: 1%;
+}
+#navegacao{
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: sticky;
+    top: 0%;
+    right: 0%;;
+    display: flex;
+    z-index: 1;
+    background-color: #465138;
+    text-align: center;
+}
+nav ul{
+    width: 1470px;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-flex;
+    text-align: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Bree Serif', serif;
+    font-size: 14px; 
+}
+nav ul li.idiomas{
+    list-style-type: none;
+    display:inline-block;
+    position: absolute;
+    right: 0%;
+    color: #cacdc8;
+    text-align: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 1%;
+}
+.conteudo{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 35%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 4px 8px;
+    z-index: 1;
+}
+.conteudo a{
+    color: black;
+    padding: 4px 8px;
+    text-decoration: overline;
+    display: block;
+}
+.conteudo a:hover {
+    background-color: #f1f1f1;
+}
+.idiomas:hover .conteudo{
+    display: block;
+}
+.idiomas:hover #texto{
+    background-color: #3e8e41;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #cacdc8;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+#home{
+    position: absolute;
+    top: 35%;
+    left: 26%;
+}
+#titulo{
+    width: 100%;
+    text-align: center;
+    font-family: 'Oswald';
+}
+table{
+    width: 85%;
+    margin-left: 7.5%;
+}
+table, th, td 
+{
+    position: relative;
+    border: solid 1px #ddd;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid #4BB2F2;
+}
+th { 
+    font-family: 'Oswald';
+    background-color: #4BB2F2;
+
+}
+td{
+    font-family: 'Raleway', sans-serif;
+}
+
+tr:nth-child(even){
+    background-color: #f1f1f1;
+}
+tr:nth-child(odd){
+    background-color: #D5E5F2;
+}
+tr:hover{
+    background-color: #4BB2F2;
+}
+footer{
+    text-align: center;
+    background-color: #465138;
+    color: #cacdc8;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}

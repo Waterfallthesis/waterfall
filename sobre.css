@@ -1,0 +1,200 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+#base{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: #D5E5F2;
+}
+#base::before {    
+    content: "";
+    background-image: url('fundofotos4.png');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.65;
+}
+#indice h1{
+    width: 10%;
+    font-family: 'Bree Serif', serif;
+    display: inline-flex;
+    color: #cacdc8;
+    font-size: 20px;
+    text-align: left;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    padding: 0%;
+    margin-top: 1%;
+}
+#navegacao{
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: sticky;
+    top: 0%;
+    right: 0%;;
+    display: flex;
+    z-index: 1;
+    background-color: #465138;
+    text-align: center;
+}
+nav ul{
+    width: 1470px;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-flex;
+    text-align: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Oswald';
+    font-size: 14px; 
+}
+nav ul li.idiomas{
+    list-style-type: none;
+    display:inline-block;
+    position: absolute;
+    right: 0%;
+    text-align: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 1%;
+}
+.conteudo{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 35%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 4px 8px;
+    z-index: 1;
+}
+.conteudo a{
+    color: black;
+    padding: 4px 8px;
+    text-decoration: overline;
+    display: block;
+}
+.conteudo a:hover {
+    background-color: #f1f1f1;
+}
+.idiomas:hover .conteudo{
+    display: block;
+}
+.idiomas:hover #texto{
+    background-color: #3e8e41;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #cacdc8;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+#home{
+    position: absolute;
+    top: 35%;
+    left: 31%;
+}
+#Introdução{
+    position: relative;
+}
+#Introdução h1{
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    overflow: auto;
+    width: 100%;
+    font-family: 'Oswald';
+    font-size: 3em;
+    height: auto;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    text-shadow: 2px 4px 8px #12210e;
+}
+#mensagem p{
+    position: relative;
+    font-family: 'Oswald';
+    width: 60%;
+    display: inline-flex;
+    margin-left: 20%;
+    font-size: 1.5em;
+    background-color: #D5E5F2;
+    padding: 1em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);;
+}
+
+#objetivos h1{
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    overflow: auto;
+    width: auto;
+    font-size: 3em;
+    font-family: 'Oswald';
+    height: auto;
+    text-align: center;
+    color: white;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+#Cascata{
+    margin-bottom: 5%;
+}
+#Cascata h2{
+    position: relative;
+    background-color: #f1f1f1;
+    border: 2px solid #4BB2F2;
+    font-family: 'Oswald';
+    font-size: 1.2em;
+    width: 30%;
+    margin-left: 2.5%;
+    text-align: center;
+    box-shadow: 0px 4px 8px 0px #4BB2F2;
+}
+#caixa1{
+    padding-top: 2.7%;
+    padding-bottom: 2.7%;
+    text-align: center;
+    position: relative;
+    left: 2%;
+    display: inline-block;
+}
+
+#caixa2{
+    padding-top: 2.7%;
+    padding-bottom: 2.7%;
+    position: relative;
+    left: 32.5%;
+}
+#caixa3{
+    padding-top: 2.7%;
+    padding-bottom: 2.7%;
+    text-align: center;
+    position: relative;
+    left: 31%;
+    display: inline-block;
+}
+footer{
+    text-align: center;
+    background-color: #465138;
+    color: #cacdc8;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}

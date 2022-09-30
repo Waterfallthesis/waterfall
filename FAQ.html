@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="FAQ.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <title>FAQ</title>
+</head>
+<body>
+    <div id="base">
+        <div id="navegacao">
+          <nav>
+            <ul id="indice">
+                <h1>CASCATAS DE <br>PORTUGAL</h1>
+                <li id="home"><a href="index.html"><img src="home3.png"></a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="bd.html">Base de dados</a></li>
+                <li><a href="map.html">Webmap</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="contact.html">Contactos</a></li>
+            </ul>
+          </nav>
+      </div>
+        <div id="titulo">
+          <h1>Perguntas Frequentes</h1>
+          <img src="faq.png">
+        </div>
+        <div id="descricao">
+          <p>Neste tópico poderá perceber as funcionalidades do website e como corrigir possíveis problemas que possam surgir:</p>
+        </div>
+        <button type="button" class="collapsible">Como posso acrescentar uma cascata?</button>
+        <div class="content">
+        <p>Para nos ajudar a aumentar a nossa base de dados, apenas precisa de selecionar o seguinte: <br><img src="captura_botao.jpg" width="900" height="132"><br>Ao clicar nesse botão, irá abrir uma página com o seguinte formulário:<br> <br> Neste formulário, terá de indicar o nome da cascata, a localidade onde se encontra, rio, a sua localização e a adição de fotografias. Por fim, ao submeter on formulário, iremos confirmar os dados recebidos e posteriormente adicionados à base de dados do site. </p>
+        </div>
+        <button type="button" class="collapsible">Como utilizo o mapa interativo?</button>
+        <div class="content">
+        <p>Este é bastante intuitivo e fácil de entender mas iremos explicar as suas funcionalidades:</p>
+        <ul>
+          <li>Interação com pontos/cascata: clicar para ter acesso ao nome da cascata.</li>
+          <img src="captura_seleção.jpg" width="200" height="157">
+          <p>Ao selecionar o nome, terá acesso às  características e coordenadas da cascata selecionada:</p>
+          <br>Imagem <br>
+          <li>Interação zoom: pode adicionar ou reduzir o zoom do mapa com o scroll do seu rato ou com o seguinte botão:</li>
+          <br><img src="zaptura_zoom.jpg" width="200" height="233"><br>
+          <li>Interação com a legenda: para aceder e alterar os elementos apresentados no mapa, precisa apenas de passar com o rato em cima do icone, e assim expande para poder selecionar os elementos que quer no mapa.</li>
+          <div id="imagem_esq">
+            <img src="captura_legendaf.jpg">
+          </div>
+          <div id="imagem_dir">
+            <img src="LEGENDA_EXTENSA.jpg" width="155" height="131">
+          </div>
+        </ul>
+      </div>
+      <button type="button" class="collapsible">O mapa não funciona. Como corrigir?</button>
+      <div class="content">
+        <p>Sendo que para a construção deste websig, foram utilizados plug-ins da biblioteca da Leaflet, por vezes por este ser um serviço gratuito, os servidores podem falhar. Aconselhamos que recarregue a página ou nos contacte se tiver problemas para corrigirmos.</p>
+      </div>
+      <div id="aviso">
+        <p>Em caso de dúvidas ou queira deixar algum comentário, aceda ao tópico dos <a href="contact.html">Contactos</a></p>
+      </div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+        <footer>
+            <p>Todos os Direitos Reservados</p>
+        </footer>
+    </div>
+</body>
+</html>

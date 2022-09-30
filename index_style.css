@@ -1,0 +1,250 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+#base{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    width: 10%;
+    font-family: 'Bree Serif', serif;
+    display: inline-flex;
+    font-size: 20px;
+    text-align: left;
+    color:  #f1f1f1;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    padding: 0%;
+    margin-top: 1%;
+}
+#navegacao{
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: sticky;
+    top: 0%;
+    right: 0%;;
+    display: flex;
+    z-index: 1;
+    background-color: #465138;
+    text-align: center;
+}
+nav ul{
+    width: 1470px;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-flex;
+    text-align: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Bree Serif', serif;
+    font-size: 14px; 
+}
+nav ul li.idiomas{
+    list-style-type: none;
+    display:inline-block;
+    position: absolute;
+    right: 0%;
+    text-align: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 1%;
+}
+.conteudo{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 35%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 4px 8px;
+    z-index: 1;
+}
+.conteudo a{
+    color: black;
+    padding: 4px 8px;
+    text-decoration: overline;
+    display: block;
+}
+.conteudo a:hover {
+    background-color: #f1f1f1;
+}
+.idiomas:hover .conteudo{
+    display: block;
+}
+.idiomas:hover #texto{
+    background-color: #3e8e41;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #cacdc8;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+#home{
+    position: absolute;
+    top: 35%;
+    left: 27%;
+}
+#webmap{
+    height: auto;
+}
+
+img{
+    position: relative;
+    float: right;
+    top: 0%;
+    opacity: 0.8;
+}
+
+#mensagem{
+    position: absolute;
+    background-color: none;
+    padding: 1%;
+    border-radius: 15%;
+    text-align: center;
+    top: 15%;
+    left: 23%;
+
+}
+#mensagem p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    font-style: italic;
+    text-shadow: 2px 4px 8px #12210e;
+    text-transform: uppercase;
+    color:white;
+    opacity: 1;
+    text-shadow: #465138;
+}
+
+.arrow{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #12210e;
+    border-right: 5px solid #12210e;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+#webmap{
+    position: relative;
+    background:url("websig13.jpg");
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    margin-top: 50rem;
+    text-align: left;
+    color: #465138;
+    padding-left: 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    font-family: 'Oswald', sans-serif;
+}
+#Cascata{
+    width: 100%;
+    overflow: auto;
+}
+#Cascata p, h2{
+    margin-top: 8%;
+}
+
+#botao a{
+    color: #cacdc8;
+    text-decoration: none;
+    width: 5%;
+    display: block;
+    background-color: #12210e;
+    border-radius: 5px;
+    padding: 2%;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#botao a:hover{
+    background-color: #cacdc8;
+    color: #12210e;
+    text-decoration: underline;
+}
+#basedados{
+    position: relative;
+    border: 1px solid black;
+    background: url("tabela02.jpg");
+    background-repeat: no-repeat;
+    text-align: right;
+    color: #465138;
+    padding-right: 10%;
+    padding-top: 8%;
+    padding-bottom: 1%;
+    font-family: 'Oswald', sans-serif;
+}
+#bd{
+    width: 100%;
+    overflow: auto;
+}
+#bd p, h2{
+    margin-top: 8%;
+}
+
+#botao1 a{
+    color: #cacdc8;
+    text-decoration: none;
+    width: 5%;
+    display: block;
+    background-color: #12210e;
+    border-radius: 5px;
+    padding: 2%;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    position: relative;
+    left: 90%;
+}
+#botao1 a:hover{
+    background-color: #cacdc8;
+    color: #12210e;
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    background-color: #465138;
+    color: #cacdc8;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
