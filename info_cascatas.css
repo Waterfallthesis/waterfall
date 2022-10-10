@@ -65,6 +65,7 @@ nav ul li a:hover{
     margin-top: 6%;
     margin-left: 5%;
     font-size: 20pt;
+    border: 1px solid black;
     text-transform: uppercase;
     font-family: 'Bree Serif', serif;
     color: #E4EDF2;
