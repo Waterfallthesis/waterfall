@@ -69,6 +69,7 @@ nav ul li a:hover{
     text-transform: uppercase;
     font-family: 'Bree Serif', serif;
     color: #E4EDF2;
+    display: block;
 }
 
 #imagem{
@@ -80,9 +81,9 @@ nav ul li a:hover{
     font-size: 22pt;
     padding: 0%;
     position: relative;
-    margin-top: 5%;
     left: 55%;
     bottom: 60%;
+    display: block;
 }
 #descricao{
     width: 60%;
