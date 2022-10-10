@@ -65,6 +65,8 @@ nav ul li a:hover{
     position: relative;
     margin-top: 6%;
     margin-left: 5%;
+    margin-right: 0%;
+    margin-bottom: 0%;
     font-size: 20pt;
     border: 1px solid black;
     text-transform: uppercase;
@@ -81,6 +83,7 @@ nav ul li a:hover{
     text-align: center;
     font-size: 22pt;
     padding: 0%;
+    margin: 0%;
     position: relative;
     left: 30%;
     bottom: 60%;
