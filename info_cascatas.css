@@ -73,6 +73,7 @@ nav ul li a:hover{
 #imagem{
     width: 40%;
     height: 30%;
+    vertical-align: middle;
     text-align: center;
     border: 1px solid black;
     font-size: 22pt;
