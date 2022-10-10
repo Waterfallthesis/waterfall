@@ -61,6 +61,7 @@ nav ul li a:hover{
 #titulo{
     width: 45%;
     height: 30%;
+    display: inline-block;
     position: relative;
     margin-top: 6%;
     margin-left: 5%;
@@ -69,13 +70,13 @@ nav ul li a:hover{
     text-transform: uppercase;
     font-family: 'Bree Serif', serif;
     color: #E4EDF2;
-    display: inline-block;
 }
 
 #imagem{
     width: 40%;
     height: 30%;
     vertical-align: middle;
+    display: inline-block;
     border: 1px solid black;
     text-align: center;
     font-size: 22pt;
@@ -83,7 +84,6 @@ nav ul li a:hover{
     position: relative;
     left: 55%;
     bottom: 60%;
-    display: inline-block;
 }
 #descricao{
     width: 60%;
