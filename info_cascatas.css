@@ -75,11 +75,10 @@ nav ul li a:hover{
     height: 30%;
     vertical-align: middle;
     text-align: center;
-    border: 1px solid black;
     font-size: 22pt;
     padding: 0%;
     position: relative;
-    margin: 0%;
+    margin-top: 5%;
     left: 55%;
     bottom: 60%;
 }
